@@ -13,6 +13,11 @@
 		044268DE29F05FC600032A5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044268DC29F05FC600032A5F /* Main.storyboard */; };
 		044268E029F05FC900032A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044268DF29F05FC900032A5F /* Assets.xcassets */; };
 		044268E329F05FC900032A5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044268E129F05FC900032A5F /* LaunchScreen.storyboard */; };
+		049EF6B429F85101006BBE05 /* PersonEnquiryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EF6B329F85101006BBE05 /* PersonEnquiryViewController.swift */; };
+		049EF6B729F851E4006BBE05 /* PersonDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EF6B529F851E4006BBE05 /* PersonDetailsTableViewCell.swift */; };
+		049EF6B829F851E4006BBE05 /* PersonDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049EF6B629F851E4006BBE05 /* PersonDetailsTableViewCell.xib */; };
+		049EF6BC29F85632006BBE05 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EF6BB29F85632006BBE05 /* Person.swift */; };
+		049EF6BE29F85699006BBE05 /* DataPassing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EF6BD29F85699006BBE05 /* DataPassing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		044268DF29F05FC900032A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044268E229F05FC900032A5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		044268E429F05FC900032A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049EF6B329F85101006BBE05 /* PersonEnquiryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonEnquiryViewController.swift; sourceTree = "<group>"; };
+		049EF6B529F851E4006BBE05 /* PersonDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		049EF6B629F851E4006BBE05 /* PersonDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		049EF6BB29F85632006BBE05 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		049EF6BD29F85699006BBE05 /* DataPassing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPassing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +69,12 @@
 				044268D629F05FC600032A5F /* AppDelegate.swift */,
 				044268D829F05FC600032A5F /* SceneDelegate.swift */,
 				044268DA29F05FC600032A5F /* ViewController.swift */,
+				049EF6B329F85101006BBE05 /* PersonEnquiryViewController.swift */,
 				044268DC29F05FC600032A5F /* Main.storyboard */,
+				049EF6B529F851E4006BBE05 /* PersonDetailsTableViewCell.swift */,
+				049EF6B629F851E4006BBE05 /* PersonDetailsTableViewCell.xib */,
+				049EF6BB29F85632006BBE05 /* Person.swift */,
+				049EF6BD29F85699006BBE05 /* DataPassing.swift */,
 				044268DF29F05FC900032A5F /* Assets.xcassets */,
 				044268E129F05FC900032A5F /* LaunchScreen.storyboard */,
 				044268E429F05FC900032A5F /* Info.plist */,
@@ -128,6 +143,7 @@
 				044268E329F05FC900032A5F /* LaunchScreen.storyboard in Resources */,
 				044268E029F05FC900032A5F /* Assets.xcassets in Resources */,
 				044268DE29F05FC600032A5F /* Main.storyboard in Resources */,
+				049EF6B829F851E4006BBE05 /* PersonDetailsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049EF6BC29F85632006BBE05 /* Person.swift in Sources */,
+				049EF6B729F851E4006BBE05 /* PersonDetailsTableViewCell.swift in Sources */,
 				044268DB29F05FC600032A5F /* ViewController.swift in Sources */,
+				049EF6BE29F85699006BBE05 /* DataPassing.swift in Sources */,
+				049EF6B429F85101006BBE05 /* PersonEnquiryViewController.swift in Sources */,
 				044268D729F05FC600032A5F /* AppDelegate.swift in Sources */,
 				044268D929F05FC600032A5F /* SceneDelegate.swift in Sources */,
 			);
