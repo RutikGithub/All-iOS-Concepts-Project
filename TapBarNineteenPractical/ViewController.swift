@@ -52,7 +52,7 @@ extension PersonDetailsViewController:UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cellData = personDetailsTableView.dequeueReusableCell(withIdentifier: "PersonDetailsTableViewCell", for: indexPath) as? PersonDetailsTableViewCell
+        let cellData = personDetailsTableView.dequeueReusableCell(withIdentifier: "PersonDetailsTableViewCell", for: indexPath) as? PersonDetailsTableViewCell
         
         cellData?.personNameLabel.text = persons[indexPath.row].name
         cellData?.personMobileNoLabel.text = String(persons[indexPath.row].mobileNumber)
